@@ -8,6 +8,8 @@ int main(){
 	printf("Palavra original\n");
 	printar(controle_pilha1);
 	verifica_palindrome (controle_pilha1,controle_pilha2);
+	free(controle_pilha1);
+	free(controle_pilha2);
 	return 0;
 }
 void verifica_palindrome(header *controle_pilha1,header *controle_pilha2)
